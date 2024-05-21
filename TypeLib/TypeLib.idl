@@ -1,0 +1,30 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+    odl,
+    object,
+    dual,
+    oleautomation,
+    uuid(C6C960BE-7B96-42C7-A694-151B0A5964DB)
+]
+interface _DotNETWinFormsCustomControl : IDispatch
+{
+};
+
+[
+    uuid(46F3FEB2-121D-4830-AA22-0CDA9EA90DC3),
+    version(1.0)
+]
+library DotNETWinFormsCustomControlLib
+{
+    importlib("stdole2.tlb");
+
+    [
+        uuid(55E09A56-35A5-48AF-B1EC-B63AF0BAEEA5)
+    ]
+        coclass DotNETWinFormsCustomControl
+    {
+        [default] interface _DotNETWinFormsCustomControl;
+    }
+}
