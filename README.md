@@ -18,7 +18,7 @@ Visual Studio 2022 **with C++ Build tools (MSVC v143)** installed.
 
     <img width="500px" src="https://github.com/scale-tone/DotNETWinFormsOleControl/assets/5447190/7f17ef2b-771e-4169-ba6b-dd0977dab6e4"/>
 
-6. Add the onto the form and observe the control working:
+6. Add the `DotNETWinFormsCustomControlLib.DotNETWinFormsCustomControl` control onto the form and observe the control working:
 
     <img width="500px" src="https://github.com/scale-tone/DotNETWinFormsOleControl/assets/5447190/4ee1b8aa-3344-45dd-9d58-8f1b170d40ec"/>
 
